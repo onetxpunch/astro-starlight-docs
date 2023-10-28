@@ -8,6 +8,7 @@ export default defineConfig({
       entrypoint: "astro/assets/services/noop",
     },
   },
+  base: "/astro-starlight-docs/",
   integrations: [
     starlight({
       title: "My Docs",
